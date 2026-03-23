@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shashank Reddy | CS Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-text">
+        <span>INITIALIZING</span>
+        <span class="loader-dots"><span>.</span><span>.</span><span>.</span></span>
+      </div>
+      <div class="loader-bar-track">
+        <div class="loader-bar" id="loader-bar"></div>
+      </div>
+      <div class="loader-percent" id="loader-percent">0%</div>
+    </div>
+  </div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-logo"><span class="nav-logo-bracket">[</span>KSR<span class="nav-logo-bracket">]</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#projects">PROJECTS</a></li>
+      <li><a href="#certifications">CERTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <div class="nav-status"><span class="status-dot"></span><span>AVAILABLE FOR HIRE</span></div>
+    <button class="nav-toggle" id="nav-toggle"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mobile-link">ABOUT</a></li>
+      <li><a href="#skills" class="mobile-link">SKILLS</a></li>
+      <li><a href="#projects" class="mobile-link">PROJECTS</a></li>
+      <li><a href="#certifications" class="mobile-link">CERTS</a></li>
+      <li><a href="#contact" class="mobile-link">CONTACT</a></li>
+    </ul>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content">
+      <div class="hero-tag reveal-up"><span class="tag-dot"></span><span>B.Tech CSE · Mohan Babu University</span></div>
+      <h1 class="hero-name reveal-up delay-1">
+        <span class="name-line">KOTHAVANDLA</span>
+        <span class="name-line accent-line">SHASHANK</span>
+        <span class="name-line">REDDY</span>
+      </h1>
+      <div class="hero-role reveal-up delay-2">
+        <span class="role-prefix">_</span>
+        <span id="role-text"></span>
+        <span class="role-cursor">|</span>
+      </div>
+      <p class="hero-bio reveal-up delay-3">Computer Science Engineering student skilled in Python, Java, and React.<br>Passionate about Machine Learning and Full Stack Development.</p>
+      <div class="hero-cta reveal-up delay-4">
+        <a href="#projects" class="btn-primary"><span>VIEW PROJECTS</span> &#8594;</a>
+        <a href="#contact" class="btn-secondary">GET IN TOUCH</a>
+      </div>
+      <div class="hero-stats reveal-up delay-5">
+        <div class="stat"><span class="stat-number" data-count="8.9">0</span><span class="stat-unit">CGPA</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number" data-count="5">0</span><span class="stat-unit">CERTIFICATIONS</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-number" data-count="2">0</span><span class="stat-unit">ML PROJECTS</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card reveal-right delay-2">
+        <div class="hero-card-header">
+          <span class="card-dot red"></span><span class="card-dot yellow"></span><span class="card-dot green"></span>
+          <span class="card-title">shashank.py</span>
+        </div>
+        <div class="hero-card-body">
+          <pre><code><span class="c-keyword">class</span> <span class="c-class">Engineer</span>:
+  <span class="c-keyword">def</span> <span class="c-fn">__init__</span>(self):
+    self.name = <span class="c-str">"Shashank Reddy"</span>
+    self.role = <span class="c-str">"CS Engineer"</span>
+    self.skills = [
+      <span class="c-str">"Python"</span>, <span class="c-str">"Java"</span>,
+      <span class="c-str">"React"</span>, <span class="c-str">"ML"</span>
+    ]
+    self.cgpa = <span class="c-num">8.9</span>
+    self.open_to = <span class="c-str">"opportunities"</span>
+
+  <span class="c-keyword">def</span> <span class="c-fn">build</span>(self, idea):
+    <span class="c-keyword">return</span> <span class="c-str">"🚀 "</span> + idea</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><div class="scroll-line"></div><span>SCROLL</span></div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>01</span><span>ABOUT</span></div>
+      <div class="about-grid">
+        <div class="about-text reveal-up delay-1">
+          <h2 class="section-title">Building the<br><span class="accent">Future</span> of Tech</h2>
+          <p>I'm a final-year B.Tech Computer Science student at Mohan Babu University with a strong 8.9 CGPA, specializing in Machine Learning and Full Stack Development.</p>
+          <p>My journey spans developing DDoS detection systems for IoT networks to building full-stack ML applications — I love solving complex real-world problems through intelligent software.</p>
+          <p>Currently seeking an entry-level role where I can contribute innovative technical solutions and continue growing as an engineer.</p>
+          <div class="about-info">
+            <div class="info-item"><span class="info-label">LOCATION</span><span class="info-value">Madanapalle, Andhra Pradesh, India</span></div>
+            <div class="info-item"><span class="info-label">EDUCATION</span><span class="info-value">B.Tech CSE, 2022–2026</span></div>
+            <div class="info-item"><span class="info-label">FOCUS</span><span class="info-value">ML · Full Stack · IoT Security</span></div>
+          </div>
+        </div>
+        <div class="about-visual reveal-right delay-2">
+          <div class="about-card-stack">
+            <div class="acard"><span class="acard-icon">🎓</span><div><strong>B.Tech CSE</strong><p>Mohan Babu University</p><span class="acard-badge">CGPA 8.9</span></div></div>
+            <div class="acard"><span class="acard-icon">🤖</span><div><strong>Machine Learning</strong><p>Deep Ensemble Models, AutoML</p><span class="acard-badge">IoT Security</span></div></div>
+            <div class="acard"><span class="acard-icon">⚡</span><div><strong>Full Stack Dev</strong><p>React · Python · Java</p><span class="acard-badge">2025</span></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="skills">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>02</span><span>SKILLS</span></div>
+      <h2 class="section-title centered reveal-up delay-1">Technical <span class="accent">Arsenal</span></h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal-up delay-1">
+          <div class="skill-cat-header"><span>⟨/⟩</span><span>LANGUAGES</span></div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Python</span><div class="skill-bar-track"><div class="skill-bar" data-width="90"></div></div><span class="skill-pct">90%</span></div>
+            <div class="skill-item"><span class="skill-name">Java</span><div class="skill-bar-track"><div class="skill-bar" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+            <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-bar-track"><div class="skill-bar" data-width="75"></div></div><span class="skill-pct">75%</span></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up delay-2">
+          <div class="skill-cat-header"><span>◈</span><span>FRONTEND</span></div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">React</span><div class="skill-bar-track"><div class="skill-bar" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+            <div class="skill-item"><span class="skill-name">HTML / CSS</span><div class="skill-bar-track"><div class="skill-bar" data-width="85"></div></div><span class="skill-pct">85%</span></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up delay-3">
+          <div class="skill-cat-header"><span>⬡</span><span>AI / ML</span></div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">Machine Learning</span><div class="skill-bar-track"><div class="skill-bar" data-width="82"></div></div><span class="skill-pct">82%</span></div>
+            <div class="skill-item"><span class="skill-name">Ensemble Models</span><div class="skill-bar-track"><div class="skill-bar" data-width="75"></div></div><span class="skill-pct">75%</span></div>
+            <div class="skill-item"><span class="skill-name">AutoML / TPOT</span><div class="skill-bar-track"><div class="skill-bar" data-width="70"></div></div><span class="skill-pct">70%</span></div>
+          </div>
+        </div>
+        <div class="skill-category reveal-up delay-4">
+          <div class="skill-cat-header"><span>◎</span><span>TOOLS</span></div>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-name">SQL</span><div class="skill-bar-track"><div class="skill-bar" data-width="78"></div></div><span class="skill-pct">78%</span></div>
+            <div class="skill-item"><span class="skill-name">Excel</span><div class="skill-bar-track"><div class="skill-bar" data-width="80"></div></div><span class="skill-pct">80%</span></div>
+            <div class="skill-item"><span class="skill-name">Git / GitHub</span><div class="skill-bar-track"><div class="skill-bar" data-width="72"></div></div><span class="skill-pct">72%</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="tech-tags reveal-up delay-3">
+        <span class="tech-tag">Random Forest</span><span class="tech-tag">Gradient Boosting</span><span class="tech-tag">Naive Bayes</span><span class="tech-tag">Logistic Regression</span><span class="tech-tag">KNN</span><span class="tech-tag">Decision Tree</span><span class="tech-tag">AdaBoost</span><span class="tech-tag">Stacking Classifier</span><span class="tech-tag">Voting Classifier</span><span class="tech-tag">TPOT AutoML</span><span class="tech-tag">REST APIs</span><span class="tech-tag">Auth &amp; RBAC</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>03</span><span>PROJECTS</span></div>
+      <h2 class="section-title reveal-up delay-1">What I've <span class="accent">Built</span></h2>
+      <div class="projects-grid">
+        <div class="project-card reveal-up delay-2">
+          <div class="project-number">01</div>
+          <div class="project-header">
+            <div class="project-type">MACHINE LEARNING · 2025</div>
+            <a href="https://github.com/Sunny12552" target="_blank" class="project-link">&#9655; GitHub</a>
+          </div>
+          <h3 class="project-title">DDoS Attack Detection<br>in IoT Networks</h3>
+          <p class="project-desc">An ML-based detection system for identifying network overload in IoT environments using Deep Ensemble Learning techniques.</p>
+          <ul class="project-highlights">
+            <li>Ensemble models: Stacking &amp; Voting Classifiers</li>
+            <li>7 algorithms: Random Forest, AdaBoost, KNN &amp; more</li>
+            <li>Automated model selection using TPOT (AutoML)</li>
+            <li>Hyperparameter tuning for optimized performance</li>
+          </ul>
+          <div class="project-stack"><span>Python</span><span>ML</span><span>TPOT</span><span>Sklearn</span><span>IoT</span></div>
+        </div>
+        <div class="project-card reveal-up delay-3">
+          <div class="project-number">02</div>
+          <div class="project-header">
+            <div class="project-type">FULL STACK · ML · 2025</div>
+            <a href="https://github.com/Sunny12552" target="_blank" class="project-link">&#9655; GitHub</a>
+          </div>
+          <h3 class="project-title">Student Performance<br>Analyzer</h3>
+          <p class="project-desc">A full-stack web application to predict and analyze student performance using machine learning, with secure role-based access control.</p>
+          <ul class="project-highlights">
+            <li>ML algorithms for performance prediction</li>
+            <li>Authentication &amp; role-based access control (RBAC)</li>
+            <li>Interactive web dashboard</li>
+            <li>Full stack: React frontend + Python backend</li>
+          </ul>
+          <div class="project-stack"><span>React</span><span>Python</span><span>ML</span><span>Auth</span><span>RBAC</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="certifications">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>04</span><span>CERTIFICATIONS</span></div>
+      <h2 class="section-title centered reveal-up delay-1">Verified <span class="accent">Credentials</span></h2>
+      <div class="certs-grid">
+        <div class="cert-card reveal-up delay-1"><div class="cert-year">2023</div><div class="cert-icon">🐍</div><h4>Python Certification</h4><p>Springboard Infosys</p><div class="cert-badge">VERIFIED</div></div>
+        <div class="cert-card reveal-up delay-2"><div class="cert-year">2023</div><div class="cert-icon">⏱</div><h4>Time Management</h4><p>Springboard Infosys</p><div class="cert-badge">VERIFIED</div></div>
+        <div class="cert-card reveal-up delay-3"><div class="cert-year">2024</div><div class="cert-icon">🗄️</div><h4>SQL Certification</h4><p>Udemy</p><div class="cert-badge">VERIFIED</div></div>
+        <div class="cert-card reveal-up delay-4"><div class="cert-year">2024</div><div class="cert-icon">☕</div><h4>Java Full Stack Dev</h4><p>EduSkills Internship</p><div class="cert-badge featured">INTERNSHIP</div></div>
+        <div class="cert-card reveal-up delay-5"><div class="cert-year">2024</div><div class="cert-icon">🤖</div><h4>AI &amp; Machine Learning</h4><p>SkillEcted</p><div class="cert-badge featured">AI / ML</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>05</span><span>EDUCATION</span></div>
+      <h2 class="section-title reveal-up delay-1">Academic <span class="accent">Journey</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal-up delay-1"><div class="timeline-dot"></div><div class="timeline-year">2022 – 2026</div><div class="timeline-content"><h3>B.Tech in Computer Science &amp; Engineering</h3><p class="timeline-inst">Mohan Babu University</p><div class="timeline-score">CGPA: <strong>8.9</strong></div></div></div>
+        <div class="timeline-item reveal-up delay-2"><div class="timeline-dot"></div><div class="timeline-year">2022</div><div class="timeline-content"><h3>12th Grade — MPC</h3><p class="timeline-inst">Chaitanya Jr. College, Madanapalle</p><div class="timeline-score">Score: <strong>6.7%</strong></div></div></div>
+        <div class="timeline-item reveal-up delay-3"><div class="timeline-dot"></div><div class="timeline-year">2020</div><div class="timeline-content"><h3>10th Grade — SSC</h3><p class="timeline-inst">Vidyodaya E.M School, Madanapalle</p><div class="timeline-score">Score: <strong>9.8%</strong></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="contact">
+    <div class="section-inner">
+      <div class="section-label reveal-up"><span>06</span><span>CONTACT</span></div>
+      <h2 class="section-title centered reveal-up delay-1">Let's <span class="accent">Connect</span></h2>
+      <p class="contact-subtitle reveal-up delay-2">Open to entry-level roles, internships, and collaborations</p>
+      <div class="contact-grid">
+        <a href="mailto:shashankreddy2000kk@gmail.com" class="contact-card reveal-up delay-2"><div class="contact-icon">✉</div><div class="contact-info"><span class="contact-label">EMAIL</span><span class="contact-value">shashankreddy2000kk@gmail.com</span></div><div class="contact-arrow">→</div></a>
+        <a href="tel:+917989959504" class="contact-card reveal-up delay-3"><div class="contact-icon">☎</div><div class="contact-info"><span class="contact-label">PHONE</span><span class="contact-value">+91 7989959504</span></div><div class="contact-arrow">→</div></a>
+        <a href="https://github.com/Sunny12552" target="_blank" class="contact-card reveal-up delay-4"><div class="contact-icon">GH</div><div class="contact-info"><span class="contact-label">GITHUB</span><span class="contact-value">github.com/Sunny12552</span></div><div class="contact-arrow">→</div></a>
+        <a href="https://www.linkedin.com/in/kothavandlashashank/" target="_blank" class="contact-card reveal-up delay-5"><div class="contact-icon">in</div><div class="contact-info"><span class="contact-label">LINKEDIN</span><span class="contact-value">kothavandlashashank</span></div><div class="contact-arrow">→</div></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">[KSR]</div>
+      <div class="footer-copy">© 2025 Kothavandla Shashank Reddy · Built with passion</div>
+      <div class="footer-links">
+        <a href="https://github.com/Sunny12552" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kothavandlashashank/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
